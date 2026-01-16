@@ -15,7 +15,7 @@ def run_exercise_3():
         activity_Ws = activity_Ps * percentage_int
         return activity_Ps, activity_Ws
 
-    print("Welcome to Grades Computation\n")
+    print("\nWelcome to Grades Computation")
     print("\nClass Standing (Lecture) 70%\n")
 
     lecAssPs, lecAssWs = grades_computation("assignment", "15%", 0.15)
@@ -63,7 +63,7 @@ def run_exercise_3():
     else:
         roundFinalGrade = integer_part
 
-    print("Final lecture: ", finalLecture)
+    print("\nFinal lecture: ", finalLecture)
     print("Final lab: ", finalLab)
 
     #outputs the final grade and remarks

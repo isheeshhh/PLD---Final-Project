@@ -3,9 +3,9 @@
 #Title: Exercise 6 - Asterisk
 def run_exercise_6():
     while True:
-        print ("Select Pattern")
+        print ("\nSelect Pattern")
         print ("A, B, C")
-        choice = input("Enter your selected pattern: ").strip().upper()
+        choice = input("\nEnter your selected pattern: ").strip().upper()
         
         # pattern A
         if choice == "A":
@@ -61,7 +61,7 @@ def run_exercise_6():
                     print("*", end=" ")
                 print()
         else:
-            print("Invalid input. Please enter A, B, or C.")
+            print("\nInvalid input. Please enter A, B, or C.")
             continue
 
         while True:
@@ -72,4 +72,4 @@ def run_exercise_6():
             elif again == "NO":
                 return
             else:
-                print("Invalid input. Please enter 'yes' or 'no'.")
+                print("\nInvalid input. Please enter 'yes' or 'no'.")
