@@ -63,8 +63,8 @@ def run_exercise_4():
     else:
         roundFinalGrade = integer_part
 
-    print(f"\nFinal lecture: {finalLecture}")
-    print(f"Final lab:  {finalLab}")
+    print(f"\nFinal lecture: {finalLecture:.2f}")
+    print(f"Final lab: {finalLab:.2f}")
 
     #outputs the final grade and remarks
     if roundFinalGrade >= 97 and roundFinalGrade <= 100:

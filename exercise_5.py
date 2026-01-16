@@ -112,8 +112,8 @@ def run_exercise_5():
     labQuizPrint = print_grades("Quiz","Laboratory", labQuizList)
     labExamPrint = print_grades("Examination","Laboratory", labExamList)
 
-    print(f"Final Lecture: {finalLec}")
-    print(f"Final Lab: {finalLab}")
+    print(f"\nFinal lecture: {finalLec:.2f}")
+    print(f"Final lab: {finalLab:.2f}")
     print(f"Rounded Final Grade (int): {roundFinalGrade} \n")
 
     #outputs the final grade and remarks

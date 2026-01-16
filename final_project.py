@@ -31,7 +31,7 @@ while True:
             print("\nThank you!\n")
             exit()
         else:
-            print("\nnvalid input. Please enter 'yes' or 'no'.")
+            print("\nInvalid input. Please enter 'yes' or 'no'.")
             continue
 
 
