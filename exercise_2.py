@@ -1,6 +1,7 @@
 #Name: Irish B. De Guzman
 #Date: October 25, 2025
 #Title: Exercise 2 - Receipt
+
 def run_exercise_2():
     print("<<<<<<<<<<<<<<<< FINE DINING SNACK BAR >>>>>>>>>>>>>>>\n\n\t\t\t\b\b\bMenu for Today\n")
     print("Hot Dog\t\t\t\t\t\bPhp 45.50\nHamburger\t\t\t\t\t\b\b\b\b\b35.75\nFrench Fries\t\t\t\t\t\b\b\b\b\b25.85\nMilk Shake\t\t\t\t\t\b\b\b\b\b15.75\n")
