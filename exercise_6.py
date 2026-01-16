@@ -1,7 +1,6 @@
 #Name: Irish B. De Guzman
 #Date: November 13, 2025
 #Title: Exercise 6 - Asterisk
-
 def run_exercise_6():
     while True:
         print ("Select Pattern")
@@ -71,8 +70,6 @@ def run_exercise_6():
             if again == "YES":
                 break
             elif again == "NO":
-                import final_project
-                final_project.con()
                 return
             else:
                 print("Invalid input. Please enter 'yes' or 'no'.")

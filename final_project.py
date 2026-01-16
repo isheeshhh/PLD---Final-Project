@@ -13,7 +13,7 @@ def con():
             continue
 
 while True:
-    choice = input("Enter the number of exercise you want to run (1-6): ")
+    choice = input("\nEnter the number of exercise you want to run (1-6): ")
     try:
         choice_int = int(choice)
         if choice_int == 1:
